@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.16
+
+Name: libns3-aodv
+Description: ns-3 module ns3-aodv
+Version: 3.16
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.16-aodv-debug
+Cflags: -I${includedir}
+Requires: libns3.16-internet-debug libns3.16-wifi-debug libns3.16-applications-debug libns3.16-mesh-debug libns3.16-point-to-point-debug libns3.16-virtual-net-device-debug

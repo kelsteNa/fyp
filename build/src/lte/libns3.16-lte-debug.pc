@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.16
+
+Name: libns3-lte
+Description: ns-3 module ns3-lte
+Version: 3.16
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.16-lte-debug
+Cflags: -I${includedir}
+Requires: libns3.16-core-debug libns3.16-network-debug libns3.16-spectrum-debug libns3.16-stats-debug libns3.16-buildings-debug libns3.16-virtual-net-device-debug libns3.16-point-to-point-debug libns3.16-applications-debug libns3.16-internet-debug libns3.16-csma-debug

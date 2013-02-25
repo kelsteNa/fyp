@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include/ns3.16
+
+Name: libns3-spectrum
+Description: ns-3 module ns3-spectrum
+Version: 3.16
+Libs: -L${libdir} -Wl,-Bdynamic -lns3.16-spectrum-debug
+Cflags: -I${includedir}
+Requires: libns3.16-internet-debug libns3.16-propagation-debug libns3.16-antenna-debug libns3.16-applications-debug

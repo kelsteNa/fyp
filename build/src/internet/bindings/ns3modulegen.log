@@ -1,0 +1,522 @@
+>>>>>>>>>>>>>>>> [['void', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ipv4Address', 'unsigned char', 'unsigned char', 'unsigned char', 'unsigned int', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv4Header', 'unsigned short', 'ns3::Ptr<ns3::Ipv4Interface>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Socket>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Socket>', 'unsigned int', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Socket>', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::Socket>', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv6Address', 'ns3::Ipv6Address', 'unsigned char', 'ns3::Ptr<ns3::Ipv6Route>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::Packet>', 'ns3::Ipv4Address', 'ns3::Ipv4Address', 'unsigned char', 'ns3::Ptr<ns3::Ipv4Route>', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['bool', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::NetDevice>', 'ns3::Ptr<ns3::Packet const>', 'unsigned short', 'ns3::Address const&', 'ns3::Address const&', 'ns3::NetDevice::PacketType', 'ns3::empty', 'ns3::empty', 'ns3::empty'], ['void', 'ns3::Ptr<ns3::ArpCache const>', 'ns3::Ipv4Address', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty', 'ns3::empty']]
+***** registering callback handler: 'ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ipv4Address, unsigned char, unsigned char, unsigned char, unsigned int, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Header, unsigned short, ns3::Ptr< ns3::Ipv4Interface >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, unsigned int, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Socket >, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::Socket >, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty >'
+***** registering callback handler: 'ns3::Callback< void, ns3::Ptr< ns3::ArpCache const >, ns3::Ipv4Address, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:912: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x21e85d0>
+  cls.add_constructor([param('uint8_t', 'type'), param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:923: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:928: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllTo (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:932: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer'), param('uint8_t', 'len')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:937: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1226: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1231: Warning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1282: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1287: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1301: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1331: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1344: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1399: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1443: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1638: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Find (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1642: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Pop (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1646: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Push (params?);
+  [param('ns3::SPFVertex *', 'vNew')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1660: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Top (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1671: Warning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x2508090>
+  cls.add_constructor([param('ns3::Ptr< ns3::EventImpl > const &', 'impl'), param('uint64_t', 'ts'), param('uint32_t', 'context'), param('uint32_t', 'uid')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1705: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1752: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DebugUseLsdb (params?);
+  [param('ns3::GlobalRouteManagerLSDB *', 'arg0')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1765: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Insert (params?);
+  [param('ns3::Ipv4Address', 'addr'), param('ns3::GlobalRoutingLSA *', 'lsa')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1770: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetLSA (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1775: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetLSAByLinkData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1784: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetExtLSA (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1807: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddLinkRecord (params?);
+  [param('ns3::GlobalRoutingLinkRecord *', 'lr')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1835: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetLinkRecord (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:1875: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2109: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2174: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2179: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2403: Warning: exception TypeLookupError(['std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int >'],) in wrapper public: retval? ???::Add (params?);
+  [param('std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int >', 'ipInterfacePair')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2412: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int > const, std::vector< std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2417: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int > const, std::vector< std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2422: Warning: exception TypeLookupError(['std::pair< ns3::Ptr< ns3::Ipv4 >, unsigned int >'],) in wrapper public: retval? ???::Get (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2495: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2556: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2673: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2728: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x17243d0>
+  cls.add_constructor([param('uint8_t *', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2746: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2771: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2875: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2880: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:2888: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
+  [param('uint8_t *', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3061: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< std::pair< ns3::Ptr< ns3::Ipv6 >, unsigned int > const, std::vector< std::pair< ns3::Ptr< ns3::Ipv6 >, unsigned int > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3066: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< std::pair< ns3::Ptr< ns3::Ipv6 >, unsigned int > const, std::vector< std::pair< ns3::Ptr< ns3::Ipv6 >, unsigned int > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3144: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x184e910>
+  cls.add_constructor([param('uint8_t *', 'prefix')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3157: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3192: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3204: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3335: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3388: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyFrom (params?);
+  [param('uint8_t const *', 'buffer')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3393: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyTo (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3463: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3468: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::NetDevice > const, std::vector< ns3::Ptr< ns3::NetDevice > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3514: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::Begin (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3527: Warning: exception TypeLookupError(['__gnu_cxx::__normal_iterator< ns3::Ptr< ns3::Node > const, std::vector< ns3::Ptr< ns3::Node > > >'],) in wrapper public: retval? ???::End (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3615: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Delete (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3721: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Deserialize (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3762: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['uint8_t [ 20 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3889: Warning: exception TypeLookupError(['uint32_t &'],) in wrapper public: retval? ???::Diff (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3943: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t * const', 'data'), param('uint32_t', 'maxBytes'), param('uint32_t &', 'tsSec'), param('uint32_t &', 'tsUsec'), param('uint32_t &', 'inclLen'), param('uint32_t &', 'origLen'), param('uint32_t &', 'readLen')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:3947: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint32_t', 'tsSec'), param('uint32_t', 'tsUsec'), param('uint8_t const * const', 'data'), param('uint32_t', 'totalLen')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4093: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1cf4110>
+  cls.add_constructor([param('ns3::GlobalRoutingLSA *', 'lsa')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4116: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetLSA (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4120: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetLSA (params?);
+  [param('ns3::GlobalRoutingLSA *', 'lsa')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4137: Warning: exception TypeLookupError(['std::pair< ns3::Ipv4Address, int >'],) in wrapper public: retval? ???::SetRootExitDirection (params?);
+  [param('std::pair< ns3::Ipv4Address, int >', 'exit')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4142: Warning: exception TypeLookupError(['std::pair< ns3::Ipv4Address, int >'],) in wrapper public: retval? ???::GetRootExitDirection (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4147: Warning: exception TypeLookupError(['std::pair< ns3::Ipv4Address, int >'],) in wrapper public: retval? ???::GetRootExitDirection (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4165: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetParent (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4169: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SetParent (params?);
+  [param('ns3::SPFVertex *', 'parent')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4183: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::GetChild (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4187: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::AddChild (params?);
+  [param('ns3::SPFVertex *', 'child')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4267: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::GetImplementation (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4302: Warning: exception TypeLookupError(['ns3::Ptr< ns3::SimulatorImpl >', 'ns3::SimulatorImpl *'],) in wrapper public: retval? ???::SetImplementation (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4344: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4356: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x1df4d10>
+  cls.add_constructor([param('uint8_t *', 'start'), param('uint8_t *', 'end')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4364: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Read (params?);
+  [param('uint8_t *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4392: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4541: Warning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
+  is_const=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4806: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4834: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4851: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4898: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper private: virtual retval? ???::Print (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4920: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:4955: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5018: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5048: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5073: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5137: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5211: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5280: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5335: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5389: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5442: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5519: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5585: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5636: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5721: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5795: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5851: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5905: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:5956: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6060: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6186: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6259: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6320: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6383: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6428: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6475: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6555: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6600: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: virtual retval? ???::Copy (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6656: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6722: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6763: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6800: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6847: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:6908: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7043: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
+  [param('ns3::Time', 't'), param('uint8_t const *', 'buffer'), param('uint32_t', 'length')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7114: Warning: exception TypeLookupError(['ns3::RngStream *'],) in wrapper protected: retval? ???::Peek (params?) const;
+  is_const=True, visibility='protected')
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7459: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Recv (params?);
+  [param('uint8_t *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7472: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::RecvFrom (params?);
+  [param('uint8_t *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags'), param('ns3::Address &', 'fromAddress')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7485: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Send (params?);
+  [param('uint8_t const *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7494: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::SendTo (params?);
+  [param('uint8_t const *', 'buf'), param('uint32_t', 'size'), param('uint32_t', 'flags'), param('ns3::Address const &', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7678: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7741: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7787: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7833: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7879: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:7933: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8031: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception TypeLookupError(['char * [ 11 ]'],) in wrapper None
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8420: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8531: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8789: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Add (params?);
+  [param('ns3::Ipv4Address', 'to')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8827: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Lookup (params?);
+  [param('ns3::Ipv4Address', 'destination')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8863: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x3ef0dd0>
+  cls.add_constructor([param('ns3::ArpCache *', 'arp')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:8985: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9036: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Lookup (params?);
+  [param('ns3::Ptr< ns3::Packet >', 'p'), param('ns3::Ipv4Address', 'destination'), param('ns3::Ptr< ns3::NetDevice >', 'device'), param('ns3::Ptr< ns3::ArpCache >', 'cache'), param('ns3::Address *', 'hardwareDestination')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9561: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9614: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9639: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9644: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const = 0;
+  is_pure_virtual=True, is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9669: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:9674: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10517: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv4Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv4Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10630: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv4Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv4Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10858: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10863: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::ProcessOptions (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10889: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10923: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:10983: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11017: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11044: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11078: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11109: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11163: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11202: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11246: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11290: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:11878: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv6Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv6Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?) = 0;
+  is_pure_virtual=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12013: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv6Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv6Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12123: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Add (params?);
+  [param('ns3::Ipv6Address', 'to')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12150: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Lookup (params?);
+  [param('ns3::Ipv6Address', 'dst')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12154: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Remove (params?);
+  [param('ns3::NdiscCache::Entry *', 'entry')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12176: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x4f32890>
+  cls.add_constructor([param('ns3::NdiscCache *', 'nd')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12518: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::AddApplication (params?);
+  [param('ns3::Ptr< ns3::Application >', 'application')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12532: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Application >', 'ns3::Application *'],) in wrapper public: retval? ???::GetApplication (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12566: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::RegisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12574: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::UnregisterDeviceAdditionListener (params?);
+  [param('ns3::Callback< void, ns3::Ptr< ns3::NetDevice >, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >', 'listener')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12682: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x514a190>
+  cls.add_constructor([param('std::ostream *', 'os')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12686: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::GetStream (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12698: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x514ad50>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size'), param('bool', 'magic')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12700: Warning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x514ad90>
+  cls.add_constructor([param('uint8_t const *', 'buffer'), param('uint32_t', 'size')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12741: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12746: Warning: exception TypeLookupError(['std::ostream *'],) in wrapper public: retval? ???::CopyData (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12801: Warning: exception TypeLookupError(['uint8_t *'],) in wrapper public: retval? ???::PeekData (params?) const;
+  deprecated=True, is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12820: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12825: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12830: Warning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintPacketTags (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12863: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Serialize (params?) const;
+  is_const=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12943: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12947: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12951: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12955: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address'), param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12959: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv4Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12963: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12967: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12971: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12975: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address'), param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12979: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv6Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12983: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv4EndPoint *', 'endPoint')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:12987: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv6EndPoint *', 'endPoint')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13010: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13015: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13030: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13035: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13154: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13158: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13162: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13166: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'address'), param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13170: Warning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::Allocate (params?);
+  [param('ns3::Ipv4Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv4Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13174: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13178: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13182: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13186: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'address'), param('uint16_t', 'port')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13190: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::Allocate6 (params?);
+  [param('ns3::Ipv6Address', 'localAddress'), param('uint16_t', 'localPort'), param('ns3::Ipv6Address', 'peerAddress'), param('uint16_t', 'peerPort')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13194: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv4EndPoint *', 'endPoint')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13198: Warning: exception TypeLookupError(['ns3::Ipv6EndPoint *'],) in wrapper public: retval? ???::DeAllocate (params?);
+  [param('ns3::Ipv6EndPoint *', 'endPoint')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13229: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13234: Warning: exception TypeConfigurationError('direction not given',) in wrapper public: virtual retval? ???::ReceiveIcmp (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13249: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13254: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13514: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13519: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::GetDownTarget6 (params?) const;
+  is_const=True, is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13605: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ForgeNA (params?);
+  [param('ns3::Ipv6Address', 'src'), param('ns3::Ipv6Address', 'dst'), param('ns3::Address *', 'hardwareAddress'), param('uint8_t', 'flags')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13618: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::FunctionDadTimeout (params?);
+  is_static=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13647: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Lookup (params?);
+  [param('ns3::Ipv6Address', 'dst'), param('ns3::Ptr< ns3::NetDevice >', 'device'), param('ns3::Ptr< ns3::NdiscCache >', 'cache'), param('ns3::Address *', 'hardwareDestination')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13651: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::Lookup (params?);
+  [param('ns3::Ptr< ns3::Packet >', 'p'), param('ns3::Ipv6Address', 'dst'), param('ns3::Ptr< ns3::NetDevice >', 'device'), param('ns3::Ptr< ns3::NdiscCache >', 'cache'), param('ns3::Address *', 'hardwareDestination')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13698: Warning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::SendNA (params?);
+  [param('ns3::Ipv6Address', 'src'), param('ns3::Ipv6Address', 'dst'), param('ns3::Address *', 'hardwareAddress'), param('uint8_t', 'flags')])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13760: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv4Address, ns3::Ipv4Address, unsigned char, ns3::Ptr< ns3::Ipv4Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper private: virtual retval? ???::GetDownTarget (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13765: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Packet >, ns3::Ipv6Address, ns3::Ipv6Address, unsigned char, ns3::Ptr< ns3::Ipv6Route >, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper private: virtual retval? ???::GetDownTarget6 (params?) const;
+  is_const=True, visibility='private', is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13855: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv4Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv4Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13927: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv4Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv4Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:13969: Warning: exception TypeLookupError(['ns3::Ptr< ns3::Packet > &'],) in wrapper public: virtual retval? ???::Process (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:14038: Warning: exception TypeLookupError(['ns3::Callback< void, ns3::Ptr< ns3::Ipv6Route >, ns3::Ptr< ns3::Packet const >, ns3::Ipv6Header const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: virtual retval? ???::RouteInput (params?);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/pybindgen-0.15.0.809/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
+  warnings.warn("Returning shared pointers is dangerous!"
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:14065: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:14175: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:14180: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  is_virtual=True)
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AsciiTraceHelperForIpv4 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::AsciiTraceHelperForIpv4'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::AsciiTraceHelperForIpv6 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::AsciiTraceHelperForIpv6'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv4RoutingHelper cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv4RoutingHelper'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv6RoutingHelper cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv6RoutingHelper'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::PcapHelperForIpv4 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::PcapHelperForIpv4'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::PcapHelperForIpv6 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::PcapHelperForIpv6'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TcpSocket cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::TcpSocket'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::TcpSocketFactory cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::TcpSocketFactory'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::UdpSocket cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::UdpSocket'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::UdpSocketFactory cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::UdpSocketFactory'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::IpL4Protocol cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::IpL4Protocol'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv4 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::Ipv4'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv4RawSocketFactory cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv4RawSocketFactory'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv4RoutingProtocol cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv4RoutingProtocol'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv6 cannot be constructed (class has pure virtual methods)',) in wrapper <pybindgen.CppClass 'ns3::Ipv6'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv6Extension cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv6Extension'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv6RawSocketFactory cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv6RawSocketFactory'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+bindings/python/ns3modulegen-modular.py:27: UserWarning: exception CodeGenerationError('ns3::Ipv6RoutingProtocol cannot be constructed (have pure virtual methods but no helper class)',) in wrapper <pybindgen.CppClass 'ns3::Ipv6RoutingProtocol'>
+  warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:901: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::AddLinkChangeCallback (ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > callback);
+  register_Ns3LoopbackNetDevice_methods(root_module, root_module['ns3::LoopbackNetDevice'])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:901: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::SetPromiscReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::Address const &, ns3::NetDevice::PacketType, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3LoopbackNetDevice_methods(root_module, root_module['ns3::LoopbackNetDevice'])
+/home/thomas/ns-allinone-3.16/ns-3.16/src/internet/bindings/modulegen__gcc_LP64.py:901: Warning: exception NotSupportedError('Reverse wrappers for ns3::Callback<...> types (python using callbacks defined in C++) not implemented.',) in wrapper public: virtual void ns3::LoopbackNetDevice::SetReceiveCallback (ns3::Callback< bool, ns3::Ptr< ns3::NetDevice >, ns3::Ptr< ns3::Packet const >, unsigned short, ns3::Address const &, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty > cb);
+  register_Ns3LoopbackNetDevice_methods(root_module, root_module['ns3::LoopbackNetDevice'])
