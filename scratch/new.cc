@@ -128,6 +128,7 @@ int main(int argc, char * argv[])
 	InternetStackHelper stack;
 	stack.Install(wimaxBSNode);
 	stack.Install(gatewayNode);
+	//stack.Install(satelliteNode);
 	stack.Install(satelliteNode);
 	stack.Install(HQNode);
 	//stack.Install(wifiNodes);
@@ -152,6 +153,7 @@ int main(int argc, char * argv[])
 	InternetStackHelper internet;
 	internet.SetRoutingHelper (list);
 	internet.Install (wifiNodes);
+	//internet.Install(satelliteNode);
 
 	Ipv4InterfaceContainer wifiInterfaces = address.Assign(wifiStaDevs);
 	Ipv4InterfaceContainer wifiApInterface = address.Assign(wifiApDev);
@@ -161,18 +163,25 @@ int main(int argc, char * argv[])
 
 
 	Ipv4GlobalRoutingHelper::PopulateRoutingTables ();
-	Ipv4GlobalRoutingHelper::RecomputeRoutingTables();
+	//Ipv4GlobalRoutingHelper::RecomputeRoutingTables();
 
 	Ptr<Node> t_node = wifiNodes.Get(0);
 	Ipv4StaticRoutingHelper helper;
 	Ptr<Ipv4> ipv4 = t_node->GetObject<Ipv4>();
 	Ptr<Ipv4StaticRouting> Ipv4stat = helper.GetStaticRouting(ipv4);
-	Ipv4stat->SetDefaultRoute("10.1.2.5",1,-10);
+	Ipv4stat->SetDefaultRoute("10.1.1.11",0,-10);
 	Ptr<Node> t_node2 = wifiNodes.Get(1);
 	Ipv4StaticRoutingHelper helper2;
 	Ptr<Ipv4> ipv42 = t_node2->GetObject<Ipv4>();
 	Ptr<Ipv4StaticRouting> Ipv4stat2 = helper2.GetStaticRouting(ipv42);
-	Ipv4stat2->SetDefaultRoute("10.1.2.5",1,-10);
+	Ipv4stat2->SetDefaultRoute("10.1.1.11",0,-10);
+	
+	Ptr<Node> t_node3 = satelliteNode.Get(0);
+	Ipv4StaticRoutingHelper helper3;
+	Ptr<Ipv4> ipv43 = t_node3->GetObject<Ipv4>();
+	Ptr<Ipv4StaticRouting> Ipv4stat3 = helper3.GetStaticRouting(ipv43);
+	//Ipv4stat3->SetDefaultRoute("10.1.1.1",1,-10);
+	//Ipv4stat3->AddHostRouteTo("10.1.2.4", "10.1.1.3", 1, 0);
 
 	/*PacketSinkHelper psink ("ns3::UdpSocketFactory", InetSocketAddress(Ipv4Address::GetAny() ,9));
 	ApplicationContainer sinkApp = psink.Install(gatewayNode.Get(0));
@@ -180,19 +189,13 @@ int main(int argc, char * argv[])
 	sinkApp.Stop(Seconds(100.0));
 	 */
 
-	/*Ptr<FYPApp> myApp = CreateObject<FYPApp>();
-	myApp->Setup(gatewayNode.Get(0));
-	gatewayNode.Get(0)->AddApplication(myApp);
-	myApp->SetStartTime(Seconds(0.1));
-	myApp->SetStopTime(Seconds(100.0));*/
-
-	UdpEchoServerHelper echoServer (9);
+	/*UdpEchoServerHelper echoServer (9);
 	ApplicationContainer serverApps = echoServer.Install (gatewayNode.Get (0));
 	serverApps.Start (Seconds (1.0));
 	serverApps.Stop (Seconds (90.0));
-
+*/
 	UdpEchoServerHelper echoServer1 (9);
-	ApplicationContainer serverApps1 = echoServer1.Install (satelliteNode.Get (0));
+	ApplicationContainer serverApps1 = echoServer1.Install (HQNode.Get (0));
 	serverApps1.Start (Seconds (1.0));
 	serverApps1.Stop (Seconds (90.0));
 
@@ -204,7 +207,7 @@ int main(int argc, char * argv[])
 	clientApps.Start (Seconds (2.0));
 	clientApps.Stop (Seconds (80.0));*/
 
-	UdpEchoClientHelper echoClient2 (Ipv4Address("10.1.1.4"), 9);
+	UdpEchoClientHelper echoClient2 (Ipv4Address("10.1.1.6"), 9);
 	echoClient2.SetAttribute ("MaxPackets", UintegerValue (100));
 	echoClient2.SetAttribute ("Interval", TimeValue (Seconds (1.)));
 	echoClient2.SetAttribute ("PacketSize", UintegerValue (1024));

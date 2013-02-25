@@ -145,10 +145,12 @@ UdpEchoServer::HandleRead (Ptr<Socket> socket)
 
   Ptr<Packet> packet;
   Address from;
+  Ipv4Address fromAddress;
   while ((packet = socket->RecvFrom (from)))
     {
       if (InetSocketAddress::IsMatchingType (from))
         {
+			fromAddress = InetSocketAddress::ConvertFrom(from).GetIpv4();
           NS_LOG_INFO ("At time " << Simulator::Now ().GetSeconds () << "s server received " << packet->GetSize () << " bytes from " <<
                        InetSocketAddress::ConvertFrom (from).GetIpv4 () << " port " <<
                        InetSocketAddress::ConvertFrom (from).GetPort ());
@@ -159,13 +161,23 @@ UdpEchoServer::HandleRead (Ptr<Socket> socket)
                        Inet6SocketAddress::ConvertFrom (from).GetIpv6 () << " port " <<
                        InetSocketAddress::ConvertFrom (from).GetPort ());
         }
-
+        
+        
       packet->RemoveAllPacketTags ();
       packet->RemoveAllByteTags ();
 
       NS_LOG_LOGIC ("Echoing packet");
-      socket->SendTo (packet, 0, from);
+		if(fromAddress.IsEqual(Ipv4Address("10.1.2.2")))
+		{
+            std::cout << "Trying to forward\n";
+			socket->SendTo (packet, 0, Address(Ipv4Address("10.1.2.1")));
+		}
+        else
+        {
+            socket->SendTo (packet, 0, from);
+        }
 
+          //  socket->SendTo (packet, 0, from);
       if (InetSocketAddress::IsMatchingType (from))
         {
           NS_LOG_INFO ("At time " << Simulator::Now ().GetSeconds () << "s server sent " << packet->GetSize () << " bytes to " <<

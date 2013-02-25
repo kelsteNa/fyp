@@ -837,6 +837,7 @@ Ipv4L3Protocol::IpForward (Ptr<Ipv4Route> rtentry, Ptr<const Packet> p, const Ip
   // Forwarding
   Ipv4Header ipHeader = header;
   Ptr<Packet> packet = p->Copy ();
+  //if(ipHeader.GetSource().IsEqual(Ipv4Address("10.1.1.4"))) ipHeader.SetDestination(Ipv4Address("10.1.2.1"));
   int32_t interface = GetInterfaceForDevice (rtentry->GetOutputDevice ());
   ipHeader.SetTtl (ipHeader.GetTtl () - 1);
   if (ipHeader.GetTtl () == 0)
